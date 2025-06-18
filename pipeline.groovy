@@ -5,7 +5,7 @@ pipeline {
     }
 
     triggers {
-        cron(params.ENABLE_SCHEDULE ? 'H/5 * * * *' : '')
+        cron(params.ENABLE_SCHEDULE ? 'H/1 * * * *' : '')
     }
 
     stages {
